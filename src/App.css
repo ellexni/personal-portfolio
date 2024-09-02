@@ -1,0 +1,678 @@
+/*Custom Fonts*/
+/*Regular*/
+@font-face {
+  font-family: Arapey;
+  src: url('./assets/font/Arapey-Regular.ttf');
+  font-weight: 400;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fade-in-text {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+  white-space: pre;
+}
+
+/* Default CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background: #dbf9ff !important;
+  color: black !important;
+  font-family: 'Arapey', serif !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
+
+/* Navbar CSS */
+
+.nav {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.nav img {
+  width: 28%
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 25px;
+  opacity: 1;
+  color: black !important;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0 25px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav li:hover{
+  opacity: 0.5;
+}
+
+.nav a:hover{
+  opacity:0.5
+}
+
+/* Home CSS */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: white;
+  margin-top: 200px;
+  width: 586px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.banner h1 {
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  padding: 15px;
+  list-style: none;
+  gap: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.8px;  
+  opacity: 1;
+}
+
+.banner p {
+  text-align: center;
+  font-size: 64px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-style: italic;
+  text-shadow:
+        -0.5px -0.5px 0 #000,
+        0.5px -0.5px 0 #000, 
+        -0.5px 0.5px 0 #000, 
+        0.5px 0.5px 0 #000;
+}
+
+.home img {
+  margin-top: 200px;
+  margin-left: 200px;
+  height: 25%;
+  width: 25%;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects CSS */
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.project ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.frontend {
+  background-color: white;
+  width: 380px;
+  height: 491px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: .5s;
+}
+
+.frontend:hover {
+  width: 400;
+  height: 511px;
+}
+
+.frontend h1 {
+  width: 370px;
+  height: 99px;
+  line-height: 99px;
+  text-align: center;
+  font-size: 32px;  
+  padding-top: 20px;
+  font-family: 'Arapey', serif !important;
+}
+
+.frontend p {
+  width: 370px;
+  height: 138px;
+  line-height: 138px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Arapey', serif !important;
+}
+
+.frontend img {
+  padding: 10px;
+  align-items: center;
+}
+
+.backend {
+  background-color: white;
+  width: 380px;
+  height: 491px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 42px;
+  transition: .5s;
+}
+
+.backend:hover {
+  width: 400;
+  height: 511px;
+}
+
+.backend h1 {
+  width: 370px;
+  height: 99px;
+  line-height: 99px;
+  text-align: center;
+  font-family: 'Arapey', serif !important;
+  font-size: 32px;  
+  padding-top: 20px;
+}
+
+.backend p {
+  width: 370px;
+  height: 138px;
+  line-height: 138px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Arapey', serif !important;
+}
+
+.backend img {
+  padding: 10px;
+  align-items: center;
+}
+
+.fullstack {
+  background-color: white;
+  width: 380px;
+  height: 491px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 42px;
+  transition: .5s;
+}
+
+.fullstack:hover {
+  width: 400;
+  height: 511px;
+}
+
+.fullstack h1 {
+  width: 370px;
+  height: 99px;
+  line-height: 99px;
+  text-align: center;
+  font-family: 'Arapey', serif !important;
+  font-size: 32px;  
+  padding-top: 20px;
+}
+
+.fullstack p {
+  width: 370px;
+  height: 138px;
+  line-height: 138px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Arapey', serif !important;
+}
+
+.fullstack img {
+  padding: 10px;
+  align-items: center;
+}
+
+/* Contact Form CSS */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  padding: 25px 25px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  margin: 25px;
+  margin-right: 0px;
+}
+
+form h1 {
+  font-size: 32px;
+  font-family: 'Arapey', serif !important;
+}
+
+form .input-box {
+  margin-top: 20px;
+}
+
+.input-box .field {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ddd;
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #333;
+  margin-top: 8px;
+  font-family: 'Arapey', serif !important;
+}
+
+form button {
+  width: 100%;
+  height: 55px;
+  background: #616161;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-top: 25px;
+  transition: .5s;
+}
+
+.contact img {
+  margin-left: 0px;
+  height:22.8%;
+  width: 22.8%;
+}
+
+form button:hover {
+  background: #4c4c4c;
+}
+
+/* About Banner CSS */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutbanner {
+  max-width: 500px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.aboutbanner h1 {
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 32px;
+}
+
+.aboutbanner p {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.about img {
+  height: 30%;
+  width: 30%;
+  margin-top: 150px;
+}
+
+/* Skills CSS */
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;  
+}
+
+.skills section {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h1 {
+  text-decoration: none;
+  margin: 17px;
+  font-size: 32px;
+  text-align: center;
+}
+
+/* Music CSS */
+.music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;  
+}
+
+.music section {
+  background-color: white;
+  width: 1180px;
+  height: 566px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music h1 {
+  text-decoration: none;
+  margin: 17px;
+  font-size: 32px;
+}
+
+/* hobbies CSS */
+
+.hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;  
+}
+
+.hobbies section {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies h1 {
+  text-decoration: none;
+  margin: 17px;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+/* FullPage CSS */
+
+.fullpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  
+}
+
+.wip {   
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wip h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.wip p {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+/* Front Page CSS */
+
+.frontpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+.website {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 600px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.website button:hover {
+  opacity: 0.5;
+}
+
+.website li {
+  text-align: left;
+  font-size: 20px;  
+  font-family: 'Arapey', serif !important;
+}
+
+.website h1 {
+  font-size: 32px;  
+  font-family: 'Arapey', serif !important;
+}
+
+.website img {
+  width: 200px;
+}
+
+/* Back Page CSS */
+.backpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+.uranus {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 600px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.uranus button:hover {
+  opacity: 0.5;
+}
+
+.uranus li {
+  text-align: left;
+  font-size: 20px;  
+  font-family: 'Arapey', serif !important;
+}
+
+.uranus h1 {
+  font-size: 32px;  
+  font-family: 'Arapey', serif !important;
+}
+
+.uranus img {
+  width: 200px;
+}
+
+/* Collage CSS */
+
+.collage {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.collage img {
+  height: 25%;
+  width: 25%;
+}
+
+.collagesec {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.collagesec img {
+  height: 25%;
+  width: 25%;
+}
+
+/* Skills CSS */
+
+.skillsitems {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.icon {
+  width: 10%;
+  height: 10%;
+  color: grey;
+}
+
+.icons {
+  width: 10%;
+  height: 10%;
+  color: grey;
+  margin-left: 50px;
+}
+
+.skillsitems h1 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+
