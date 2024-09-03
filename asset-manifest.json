@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.5be7baae.css",
+    "main.js": "/personal-portfolio/static/js/main.a16f1bfd.js",
+    "static/js/453.1407b060.chunk.js": "/personal-portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/about.jpeg": "/personal-portfolio/static/media/about.b1892277bfcda089a224.jpeg",
+    "static/media/omori.jpg": "/personal-portfolio/static/media/omori.91482e2b9470c460e36a.jpg",
+    "static/media/mushroom.jpg": "/personal-portfolio/static/media/mushroom.49cd3b14d0c4b0073bdb.jpg",
+    "static/media/plants.jpg": "/personal-portfolio/static/media/plants.74e08c585ad1d4963c74.jpg",
+    "static/media/contact.jpg": "/personal-portfolio/static/media/contact.38e534479368101ed658.jpg",
+    "static/media/masterball.jpg": "/personal-portfolio/static/media/masterball.4fc66e817bd7d6655f10.jpg",
+    "static/media/main.jpg": "/personal-portfolio/static/media/main.5607feb73143a6c21025.jpg",
+    "static/media/uranusimg.png": "/personal-portfolio/static/media/uranusimg.4a6b17939a2dfe86be9e.png",
+    "static/media/spiderman.jpg": "/personal-portfolio/static/media/spiderman.3e4c6fe115df0b85c5af.jpg",
+    "static/media/bag.JPG": "/personal-portfolio/static/media/bag.075dc84097549ede02b3.JPG",
+    "static/media/stardew.png": "/personal-portfolio/static/media/stardew.3b33b320350846615712.png",
+    "static/media/winnie.jpg": "/personal-portfolio/static/media/winnie.8c0f917ac39d6f208781.jpg",
+    "static/media/logo.png": "/personal-portfolio/static/media/logo.f23fa5345f696d394c52.png",
+    "static/media/Arapey-Regular.ttf": "/personal-portfolio/static/media/Arapey-Regular.44b3111547b28b83b044.ttf",
+    "static/media/backend.png": "/personal-portfolio/static/media/backend.0a55e674533a4e1c21f7.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.5be7baae.css.map": "/personal-portfolio/static/css/main.5be7baae.css.map",
+    "main.a16f1bfd.js.map": "/personal-portfolio/static/js/main.a16f1bfd.js.map",
+    "453.1407b060.chunk.js.map": "/personal-portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5be7baae.css",
+    "static/js/main.a16f1bfd.js"
+  ]
+}
