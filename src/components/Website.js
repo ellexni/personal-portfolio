@@ -3,6 +3,7 @@ import logo from "../assets/img/logo.png"
 export const Website = () => {
     return (
         <div className="website">
+            <a href="https://github.com/ellexni/personal-portfolio" target="_blank" rel="noopener noreferrer">
             <button>
                 <img src={logo} />
                 <br></br>
@@ -15,6 +16,7 @@ export const Website = () => {
                 <li>Gained experience in HTML, CSS, and JavaScript</li>
                 <li>Tools: React, Figma</li>
                 </button>
+                </a>
         </div> 
     )
 }

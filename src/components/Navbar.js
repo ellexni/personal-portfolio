@@ -10,7 +10,7 @@ export default function Navbar() {
         <ul>
             <CustomLink to="/">Portfolio</CustomLink>
             <CustomLink to="/about">About</CustomLink>
-            <a href="https://flowcv.com/resume/lloh2gwehs" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:6d781a24-9f2c-4fd2-8207-7f1ae82033af" target="_blank" rel="noopener noreferrer">Resume</a>
         </ul>
     </nav>
     )
